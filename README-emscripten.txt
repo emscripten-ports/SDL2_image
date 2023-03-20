@@ -1,7 +1,16 @@
 Building SDL2_image
 -------------------
 
-The easiest way to use SDL2_image with Emscripten is to use Emscripten ports (https://kripken.github.io/emscripten-site/docs/compiling/Building-Projects.html#emscripten-ports) (-s USE_SDL_IMAGE=2).
+This repository is a fork of https://github.com/libsdl-org/SDL_image and
+our main branch is based on the SDL2 branch upstream.
+
+To see the changes from upstream you can do:
+
+  git diff upstream/SDL2...origin/main
+
+The easiest way to use SDL2_image with Emscripten is to use Emscripten ports
+(https://kripken.github.io/emscripten-site/docs/compiling/Building-Projects.html#emscripten-ports)
+(-s USE_SDL_IMAGE=2).
 
 If you want to build it yourself instead you can use these instructions:
 
